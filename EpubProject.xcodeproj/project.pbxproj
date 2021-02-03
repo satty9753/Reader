@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32222DD525C9298900BC9070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32222DD425C9298900BC9070 /* AppDelegate.swift */; };
-		32222DD725C9298900BC9070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32222DD625C9298900BC9070 /* SceneDelegate.swift */; };
-		32222DD925C9298900BC9070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32222DD825C9298900BC9070 /* ViewController.swift */; };
+		32222DD925C9298900BC9070 /* EPubReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32222DD825C9298900BC9070 /* EPubReaderVC.swift */; };
 		32222DDC25C9298A00BC9070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32222DDA25C9298A00BC9070 /* Main.storyboard */; };
 		32222DDE25C9298C00BC9070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32222DDD25C9298C00BC9070 /* Assets.xcassets */; };
 		32222DE125C9298C00BC9070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32222DDF25C9298C00BC9070 /* LaunchScreen.storyboard */; };
+		32DD843925CA43E300C7FA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32222DD425C9298900BC9070 /* AppDelegate.swift */; };
+		32DD843B25CA46C300C7FA6F /* doyle-return-of-sherlock-holmes.epub in Resources */ = {isa = PBXBuildFile; fileRef = 32DD843A25CA46C300C7FA6F /* doyle-return-of-sherlock-holmes.epub */; };
+		32DD843D25CA4DBA00C7FA6F /* ResourceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD843C25CA4DBA00C7FA6F /* ResourceVC.swift */; };
+		32DD843F25CA4EE700C7FA6F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD843E25CA4EE700C7FA6F /* Resource.swift */; };
+		32DD844125CA54C200C7FA6F /* PDFReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD844025CA54C200C7FA6F /* PDFReaderVC.swift */; };
+		32DD844325CA5C2A00C7FA6F /* resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 32DD844225CA5C2A00C7FA6F /* resume.pdf */; };
+		BDE0DB58692BAB73433306F8 /* Pods_EpubProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27414264F1003A158FB71D4B /* Pods_EpubProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01997EA2C6627B183A9C2B46 /* Pods-EpubProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubProject.release.xcconfig"; path = "Target Support Files/Pods-EpubProject/Pods-EpubProject.release.xcconfig"; sourceTree = "<group>"; };
+		27414264F1003A158FB71D4B /* Pods_EpubProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32222DD125C9298900BC9070 /* EpubProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpubProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32222DD425C9298900BC9070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32222DD625C9298900BC9070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32222DD825C9298900BC9070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32222DD825C9298900BC9070 /* EPubReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPubReaderVC.swift; sourceTree = "<group>"; };
 		32222DDB25C9298A00BC9070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32222DDD25C9298C00BC9070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32222DE025C9298C00BC9070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32222DE225C9298C00BC9070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DD843A25CA46C300C7FA6F /* doyle-return-of-sherlock-holmes.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "doyle-return-of-sherlock-holmes.epub"; sourceTree = "<group>"; };
+		32DD843C25CA4DBA00C7FA6F /* ResourceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceVC.swift; sourceTree = "<group>"; };
+		32DD843E25CA4EE700C7FA6F /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		32DD844025CA54C200C7FA6F /* PDFReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderVC.swift; sourceTree = "<group>"; };
+		32DD844225CA5C2A00C7FA6F /* resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resume.pdf; sourceTree = "<group>"; };
+		F4D069EAD43E58D6C1AF6D72 /* Pods-EpubProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubProject.debug.xcconfig"; path = "Target Support Files/Pods-EpubProject/Pods-EpubProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE0DB58692BAB73433306F8 /* Pods_EpubProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255606D24EDD4AA580FE170F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D069EAD43E58D6C1AF6D72 /* Pods-EpubProject.debug.xcconfig */,
+				01997EA2C6627B183A9C2B46 /* Pods-EpubProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		32222DC825C9298900BC9070 = {
 			isa = PBXGroup;
 			children = (
 				32222DD325C9298900BC9070 /* EpubProject */,
 				32222DD225C9298900BC9070 /* Products */,
+				255606D24EDD4AA580FE170F /* Pods */,
+				5B09ABC40B8F32A28B6EAF99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				32222DD425C9298900BC9070 /* AppDelegate.swift */,
-				32222DD625C9298900BC9070 /* SceneDelegate.swift */,
-				32222DD825C9298900BC9070 /* ViewController.swift */,
+				32DD843C25CA4DBA00C7FA6F /* ResourceVC.swift */,
+				32DD843E25CA4EE700C7FA6F /* Resource.swift */,
+				32DD844025CA54C200C7FA6F /* PDFReaderVC.swift */,
+				32222DD825C9298900BC9070 /* EPubReaderVC.swift */,
 				32222DDA25C9298A00BC9070 /* Main.storyboard */,
+				32DD844225CA5C2A00C7FA6F /* resume.pdf */,
 				32222DDD25C9298C00BC9070 /* Assets.xcassets */,
 				32222DDF25C9298C00BC9070 /* LaunchScreen.storyboard */,
+				32DD843A25CA46C300C7FA6F /* doyle-return-of-sherlock-holmes.epub */,
 				32222DE225C9298C00BC9070 /* Info.plist */,
 			);
 			path = EpubProject;
+			sourceTree = "<group>";
+		};
+		5B09ABC40B8F32A28B6EAF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27414264F1003A158FB71D4B /* Pods_EpubProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32222DE525C9298C00BC9070 /* Build configuration list for PBXNativeTarget "EpubProject" */;
 			buildPhases = (
+				A1498D8F6C0DA10B4FBED537 /* [CP] Check Pods Manifest.lock */,
 				32222DCD25C9298900BC9070 /* Sources */,
 				32222DCE25C9298900BC9070 /* Frameworks */,
 				32222DCF25C9298900BC9070 /* Resources */,
+				E416B37DAEB1B6868E952691 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +165,65 @@
 				32222DE125C9298C00BC9070 /* LaunchScreen.storyboard in Resources */,
 				32222DDE25C9298C00BC9070 /* Assets.xcassets in Resources */,
 				32222DDC25C9298A00BC9070 /* Main.storyboard in Resources */,
+				32DD843B25CA46C300C7FA6F /* doyle-return-of-sherlock-holmes.epub in Resources */,
+				32DD844325CA5C2A00C7FA6F /* resume.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1498D8F6C0DA10B4FBED537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpubProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E416B37DAEB1B6868E952691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpubProject/Pods-EpubProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpubProject/Pods-EpubProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EpubProject/Pods-EpubProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32222DCD25C9298900BC9070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32222DD925C9298900BC9070 /* ViewController.swift in Sources */,
-				32222DD525C9298900BC9070 /* AppDelegate.swift in Sources */,
-				32222DD725C9298900BC9070 /* SceneDelegate.swift in Sources */,
+				32DD843D25CA4DBA00C7FA6F /* ResourceVC.swift in Sources */,
+				32DD843F25CA4EE700C7FA6F /* Resource.swift in Sources */,
+				32DD843925CA43E300C7FA6F /* AppDelegate.swift in Sources */,
+				32DD844125CA54C200C7FA6F /* PDFReaderVC.swift in Sources */,
+				32222DD925C9298900BC9070 /* EPubReaderVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,38 +367,42 @@
 		};
 		32222DE625C9298C00BC9070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D069EAD43E58D6C1AF6D72 /* Pods-EpubProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UK8PZR57E;
 				INFOPLIST_FILE = EpubProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = satty.EpubProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		32222DE725C9298C00BC9070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01997EA2C6627B183A9C2B46 /* Pods-EpubProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UK8PZR57E;
 				INFOPLIST_FILE = EpubProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = satty.EpubProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

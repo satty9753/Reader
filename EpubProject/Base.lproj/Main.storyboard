@@ -1,24 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Mb-y9-hXe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--ResourceVC-->
+        <scene sceneID="t30-MK-fpY">
+            <objects>
+                <viewController storyboardIdentifier="ResourceVC" id="2um-Ap-EYu" customClass="ResourceVC" customModule="EpubProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AjE-V5-k0s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rQB-GL-kbT">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="dKX-NM-pat">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dKX-NM-pat" id="MQB-aS-g2h">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2um-Ap-EYu" id="lQu-bd-48h"/>
+                                    <outlet property="delegate" destination="2um-Ap-EYu" id="DQu-cz-32P"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rQB-GL-kbT" firstAttribute="leading" secondItem="Ues-i3-H8H" secondAttribute="leading" id="F5C-rx-wWN"/>
+                            <constraint firstItem="rQB-GL-kbT" firstAttribute="top" secondItem="Ues-i3-H8H" secondAttribute="top" id="RHS-Vm-def"/>
+                            <constraint firstItem="rQB-GL-kbT" firstAttribute="trailing" secondItem="Ues-i3-H8H" secondAttribute="trailing" id="gCu-u5-P5U"/>
+                            <constraint firstItem="rQB-GL-kbT" firstAttribute="bottom" secondItem="Ues-i3-H8H" secondAttribute="bottom" id="twb-1P-fTc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ues-i3-H8H"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HXP-Xj-NWL"/>
+                    <connections>
+                        <outlet property="tableView" destination="rQB-GL-kbT" id="8zl-B5-09y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TE6-mB-PGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175.19999999999999" y="40.929535232383813"/>
+        </scene>
+        <!--Pub ReaderVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EPubReaderVC" id="BYZ-38-t0r" customClass="EPubReaderVC" customModule="EpubProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1110" y="-260"/>
+        </scene>
+        <!--ReaderVC-->
+        <scene sceneID="Fuj-Zp-oxl">
+            <objects>
+                <viewController storyboardIdentifier="PDFReaderVC" id="MIF-fJ-Lw9" customClass="PDFReaderVC" customModule="EpubProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AWa-OY-TWZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GWA-I3-7gw" customClass="PDFView">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GWA-I3-7gw" firstAttribute="top" secondItem="xS3-BT-LSV" secondAttribute="top" id="E17-ke-Jge"/>
+                            <constraint firstItem="GWA-I3-7gw" firstAttribute="leading" secondItem="xS3-BT-LSV" secondAttribute="leading" id="gnb-gt-fAe"/>
+                            <constraint firstItem="GWA-I3-7gw" firstAttribute="trailing" secondItem="xS3-BT-LSV" secondAttribute="trailing" id="jKP-KI-5Kk"/>
+                            <constraint firstItem="GWA-I3-7gw" firstAttribute="bottom" secondItem="xS3-BT-LSV" secondAttribute="bottom" id="rBd-z7-3tI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xS3-BT-LSV"/>
+                    </view>
+                    <connections>
+                        <outlet property="pdfView" destination="GWA-I3-7gw" id="U8U-q6-C9m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H4E-oX-cqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109.5999999999999" y="529.38530734632684"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="o50-fv-Pxt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Mb-y9-hXe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mr7-Rp-AL5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2um-Ap-EYu" kind="relationship" relationship="rootViewController" id="kh2-uF-OfH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2l-FR-sFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-764" y="40.929535232383813"/>
         </scene>
     </scenes>
 </document>
